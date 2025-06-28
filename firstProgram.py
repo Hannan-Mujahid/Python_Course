@@ -9,7 +9,7 @@ number2 = float(input("Dosra number dain: "))
 sum = number1 + number2
 
 # Result print karna
-print("Dono numbers ka sum hai:", sum)
+print("Dono numbers ka sum hai:", sum) 
 
 
 
