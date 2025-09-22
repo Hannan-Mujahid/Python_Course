@@ -1,0 +1,5 @@
+print(list(student.keys())) 
+print(list(student.values())) 
+print(list(student.items()))
+print(student.get("Name"))
+print(student.get("Subject"))
