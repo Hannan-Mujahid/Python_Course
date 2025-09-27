@@ -45,7 +45,8 @@ for i in range(1,n+1):
 print("total sum = ",sum)
 """
 
-
+# WAP to find  the sum  of first n numbers. (Using while loop)
+"""
 n = int(input("Enter a number to find natural: "))
 sum = 0
 i=1
@@ -53,8 +54,18 @@ while i <=n:
     sum +=i
     i +=1
     print("total sum = ",sum)
-    
+"""
 
+
+ # WAP to find the factorial of a number. (Using for loop)
+"""
+n = int(input("Enter a number to find factorial: "))
+fact = 1
+for i in range(1,n+1):
+        fact = fact * i
+        i +=1
+print("Factorial of ",n," is ",fact)
+"""
 
 
 
