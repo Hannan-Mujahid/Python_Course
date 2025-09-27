@@ -14,9 +14,21 @@ calc_sum(15,25)
 
 calc_sum(100,250)
 """
-
+"""
 def calc_sum(a,b):      # Function Definition; parameters
     return a + b
 
 sum = calc_sum(5,10)      # Function Call; arguments
 print("Sum is: ",sum)
+"""
+
+def print_hello():
+    print("Hello")
+    
+print_hello()
+print_hello()
+print_hello()
+
+
+
+
