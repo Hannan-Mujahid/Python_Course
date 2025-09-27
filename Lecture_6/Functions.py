@@ -1,11 +1,11 @@
 
 """
-def calc_sum(a,b):
+def calc_sum(a,b):  # Function Definition
     sum = a + b
     print("Sum is: ",sum)
     return sum
 
-calc_sum(5,10)
+calc_sum(5,10)      # Function Call 
 # more lines of code
 
 
@@ -15,8 +15,8 @@ calc_sum(15,25)
 calc_sum(100,250)
 """
 
-def calc_sum(a,b):      # Function Definition
+def calc_sum(a,b):      # Function Definition; parameters
     return a + b
 
-sum = calc_sum(5,10)      # Function Call
+sum = calc_sum(5,10)      # Function Call; arguments
 print("Sum is: ",sum)
