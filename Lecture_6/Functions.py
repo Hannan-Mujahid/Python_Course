@@ -37,6 +37,8 @@ def calc_aveg(a,b,c):
     print("Average is: ",average)
 
 calc_aveg(5,10,15)
+print("More lines of code")
+calc_aveg(20,30,40)
 
 
 
