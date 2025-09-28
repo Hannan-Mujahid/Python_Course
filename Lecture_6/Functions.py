@@ -25,9 +25,8 @@ print("Sum is: ",sum)
 def print_hello():
     print("Hello")
     
-print_hello()
-print_hello()
-print_hello()
+out_put = print_hello()
+print(out_put)
 
 
 
