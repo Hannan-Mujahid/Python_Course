@@ -62,3 +62,15 @@ def find_even_odd(num):
 
 find_even_odd(num)        
 """
+list = []
+number = int(input("Enter a list of numbers: "))
+def create_list(number):
+    if number %2 ==0:
+        print(number, "is an Even number.")
+        list.append(number)
+    else:
+        print(number, "is an odd  number.")
+        list.append(number)
+create_list(number)
+print("List of numbers: ", list)
+        
