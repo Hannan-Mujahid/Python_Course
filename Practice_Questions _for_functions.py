@@ -39,3 +39,11 @@ def calc_factorial(n):
 
 calc_factorial(n)
 """
+
+
+
+def convertor(usd_val):
+    pkr = usd_val * 283
+    print(usd_val, "PKR: ", pkr)
+
+convertor(100)    
