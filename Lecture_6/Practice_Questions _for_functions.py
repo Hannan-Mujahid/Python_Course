@@ -41,9 +41,20 @@ calc_factorial(n)
 """
 
 
-
-def convertor(usd_val):
-    pkr = usd_val * 283
-    print(usd_val, "PKR: ", pkr)
+"""
+def convertor(usd_val):   # function definition; parameter
+    pkr = usd_val * 283     # 1 USD = 283 PKR
+    print(usd_val, "PKR: ", pkr)        
 
 convertor(100)    
+"""
+
+num = int(input("Enter a number: "))
+def find_even_odd(num):
+    if num % 2 == 0:
+        print(num, "is an Even number.")
+    else:
+        print(num, "is an odd  number.")
+    
+
+find_even_odd(num)        
