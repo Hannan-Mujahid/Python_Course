@@ -49,6 +49,9 @@ def convertor(usd_val):   # function definition; parameter
 convertor(100)    
 """
 
+# WAF to find whether a number is even or odd. (number is the parameter)
+
+"""
 num = int(input("Enter a number: "))
 def find_even_odd(num):
     if num % 2 == 0:
@@ -58,3 +61,4 @@ def find_even_odd(num):
     
 
 find_even_odd(num)        
+"""
