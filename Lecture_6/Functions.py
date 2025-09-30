@@ -41,7 +41,7 @@ print("More lines of code")
 calc_aveg(20,30,40)
 """
 
-
+""""
 def calc_aveg(a,b,c):
     sum = a+b+c 
     average = sum / 3
@@ -49,5 +49,5 @@ def calc_aveg(a,b,c):
 
 out_sum, out_avg = calc_aveg(5,10,15)
 print("Sum is: ",out_sum)
-
+"""
 
