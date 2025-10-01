@@ -81,7 +81,7 @@ create_list(number)
 print("List of numbers: ", my_list)
 """
 
-
+#  logic bna raha hu mind ma ak idea aa raha ha 
 
 
 numbers_list = []
