@@ -83,7 +83,7 @@ print("List of numbers: ", my_list)
 
 #  logic bna raha hu mind ma ak idea aa raha ha 
 
-
+"""
 numbers_list = []
 
 def create_list():
@@ -97,5 +97,5 @@ def create_list():
 
 create_list()
 print("List of numbers: ", numbers_list)
-        
+"""        
         
