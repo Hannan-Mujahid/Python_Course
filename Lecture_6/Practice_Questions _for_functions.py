@@ -115,7 +115,7 @@ create_list(enter_user)
 print("List of numbers: ", numbers_list)
 """
 
-
+"""
 enter_user = int(input("Enter hoe many number you want to add int the list: "))
 number_list = []
 def create_list(n):
@@ -130,7 +130,7 @@ def create_list(n):
 
 create_list(enter_user)
 print("List of numbers: ", number_list)
-
+"""
 
 
 
