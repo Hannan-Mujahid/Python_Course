@@ -63,7 +63,7 @@ def find_even_odd(num):
 find_even_odd(num)        
 """
 
-
+"""
 my_list = []
 number= int(input("Enter a list of numbers: "))
 def create_list(number):
@@ -77,7 +77,7 @@ def create_list(number):
 
 create_list(number)
 print("List of numbers: ", my_list)
-
+"""
 
 
 
