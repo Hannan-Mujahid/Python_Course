@@ -99,3 +99,17 @@ create_list()
 print("List of numbers: ", numbers_list)
 """        
 
+enter_user = int(input("Enter how many numbers you want to add in the list: "))
+numbers_list = []
+def create_list(n):
+    for i in range(n):
+        number = int(input("Enter a number: "))
+        if number % 2 == 0:
+            print(number, "is an Even number.")
+            numbers_list.append(number)
+        else:
+            print(number, "is an odd  number.")
+            numbers_list.append(number)
+
+create_list(enter_user)
+print("List of numbers: ", numbers_list)
