@@ -63,6 +63,8 @@ def find_even_odd(num):
 find_even_odd(num)        
 """
 
+
+# WAF to create a list of even and odd numbers. (number is the parameter)
 """
 my_list = []
 number= int(input("Enter a list of numbers: "))
