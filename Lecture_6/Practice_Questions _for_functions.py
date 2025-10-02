@@ -145,6 +145,8 @@ out_list = create_list(enter_user)
 print("List of numbers: ", out_list)
 """
 
+# extra code
+"""
 n = 5 
 def calc_sum(n):
     sum = 0
@@ -154,7 +156,7 @@ def calc_sum(n):
     return sum
 out_sum = calc_sum(n)
 print("Sum of numbers: ", out_sum)
-
+"""
 
 
 
