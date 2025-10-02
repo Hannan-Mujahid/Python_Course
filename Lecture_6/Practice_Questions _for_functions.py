@@ -133,7 +133,7 @@ print("List of numbers: ", number_list)
 """
 
 # user sy input ly kr list create karni ha and phair list k elements ko add krwa dy na ha 
-
+"""
 enter_user = int(input("Enter hoe many number you want to add int the list: "))
 number_list = []
 def create_list(n):
@@ -143,7 +143,7 @@ def create_list(n):
     return number_list
 out_list = create_list(enter_user)
 print("List of numbers: ", out_list)
-    
+"""
 
 
 
