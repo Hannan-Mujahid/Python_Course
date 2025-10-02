@@ -145,6 +145,15 @@ out_list = create_list(enter_user)
 print("List of numbers: ", out_list)
 """
 
+n = 5 
+def calc_sum(n):
+    sum = 0
+    for i in range(n):
+        number = int(input("Enter a number: "))
+        sum += number
+    return sum
+out_sum = calc_sum(n)
+print("Sum of numbers: ", out_sum)
 
 
 
