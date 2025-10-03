@@ -176,3 +176,11 @@ def func():
 func()
 print("Value of n outside function: ", n)
 """
+
+f = 10
+def func():
+    f = 5
+    print("Value of f inside function: ", f)
+
+func()
+print("Value of f outside function: ", f)
