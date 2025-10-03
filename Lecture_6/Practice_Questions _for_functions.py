@@ -166,7 +166,7 @@ func()
 print("Value of i outside function: ", i)
 """
 
-
+"""
 n = 3
 def func():
     global n
@@ -175,3 +175,4 @@ def func():
 
 func()
 print("Value of n outside function: ", n)
+"""
