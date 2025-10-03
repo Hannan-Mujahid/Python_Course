@@ -157,12 +157,12 @@ def calc_sum(n):
 out_sum = calc_sum(n)
 print("Sum of numbers: ", out_sum)
 """
-
+"""
 i = 90
 def func():
     i = 20
     print("Value of i inside function: ", i)
 func()
 print("Value of i outside function: ", i)
-
+"""
 
