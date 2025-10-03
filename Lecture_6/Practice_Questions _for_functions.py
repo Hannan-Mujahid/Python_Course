@@ -199,6 +199,10 @@ def func():
 func()
 print("Value of j outside function: ", j)
 """
+
+
+"""
+
 # WAF to find the largest number in a list. (list is the parameter)
 k = [10, 34, 56, 89, 23, 45]
 def find_largest(list):
@@ -209,3 +213,5 @@ def find_largest(list):
     return largest
 out_largest = find_largest(k)
 print("Largest number in the list is: ", out_largest)
+"""
+
