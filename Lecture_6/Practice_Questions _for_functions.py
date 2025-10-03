@@ -166,3 +166,12 @@ func()
 print("Value of i outside function: ", i)
 """
 
+
+n = 3
+def func():
+    global n
+    n = 5
+    print("Value of n inside function: ", n)    
+
+func()
+print("Value of n outside function: ", n)
