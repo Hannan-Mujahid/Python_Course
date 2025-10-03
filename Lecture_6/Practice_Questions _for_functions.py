@@ -188,5 +188,11 @@ func()
 print("Value of f outside function: ", f)
 """
 
-
-
+# Global and Local Variable with global keyword
+j = 10
+def func():
+    global j
+    j = 5
+    print("Value of j inside function: ", j)
+func()
+print("Value of j outside function: ", j)
