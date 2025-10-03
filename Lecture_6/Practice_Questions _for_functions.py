@@ -188,6 +188,8 @@ func()
 print("Value of f outside function: ", f)
 """
 
+
+"""
 # Global and Local Variable with global keyword
 j = 10
 def func():
@@ -196,3 +198,14 @@ def func():
     print("Value of j inside function: ", j)
 func()
 print("Value of j outside function: ", j)
+"""
+# WAF to find the largest number in a list. (list is the parameter)
+k = [10, 34, 56, 89, 23, 45]
+def find_largest(list):
+    largest = list[0]
+    for num in list:
+        if num > largest:
+            largest = num
+    return largest
+out_largest = find_largest(k)
+print("Largest number in the list is: ", out_largest)
