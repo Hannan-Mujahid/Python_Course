@@ -177,6 +177,8 @@ func()
 print("Value of n outside function: ", n)
 """
 
+# Global and Local Variable
+"""
 f = 10
 def func():
     f = 5
@@ -184,3 +186,7 @@ def func():
 
 func()
 print("Value of f outside function: ", f)
+"""
+
+
+
