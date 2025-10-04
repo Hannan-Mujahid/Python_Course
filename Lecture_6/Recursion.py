@@ -9,7 +9,8 @@ def show(n):
 show(5)
 """
 
-
+# Example of a recursive function to calculate factorial of a number
+"""
 def fact(n):
     if (n == 1 or n==0):
         return 1
@@ -17,3 +18,15 @@ def fact(n):
 
 fact(6)
 print(fact(6))
+"""
+
+def calculate_sum(n):
+    if (n == 0):
+        return 0
+    # print(n)
+    return calculate_sum(n-1) + n
+
+sum = calculate_sum(10)    
+print(sum)
+
+
