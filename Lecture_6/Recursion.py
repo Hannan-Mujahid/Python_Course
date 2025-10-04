@@ -20,6 +20,8 @@ fact(6)
 print(fact(6))
 """
 
+# Example of a recursive function to calculate the sum of first n natural numbers
+"""
 def calculate_sum(n):
     if (n == 0):
         return 0
@@ -28,5 +30,5 @@ def calculate_sum(n):
 
 sum = calculate_sum(10)    
 print(sum)
-
+"""
 
