@@ -45,7 +45,8 @@ def sum(n):
     print(n)
     return sum(n-1) + n
 print(sum(5))
-
+# i am the person who writes online and acts on it
+# i am the smart who shows up the daily
 
 
 
