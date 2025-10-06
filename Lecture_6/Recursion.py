@@ -38,13 +38,15 @@ def sum(n):
     return sum (n+1) + n
 print(sum(5))
 """
-
+"""
 def sum(n):
     if (n == 0):
         return 0
     print(n)
     return sum(n-1) + n
 print(sum(5))
+"""
+
 # i am the person who writes online and acts on it
 # i am the smart who shows up the daily
 
