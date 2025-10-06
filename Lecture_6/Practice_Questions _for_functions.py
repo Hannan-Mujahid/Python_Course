@@ -213,7 +213,7 @@ def find_largest(list):
 output_largest = find_largest(h)
 print("Largest number in the list is: ", output_largest)
 """
-
+"""
 s = [12,45,89,90,56,74,88,551]
 def find_smallest(list):
     smallest = list[0]
@@ -224,7 +224,7 @@ def find_smallest(list):
 output_smallest = find_smallest(s) 
 print("smallest number in the list is : ", output_smallest)
 
-
+"""
 
 
 
