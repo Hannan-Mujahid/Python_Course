@@ -12,4 +12,7 @@ if again_write == 'y':
     f.write("\n")
 f.close()
 """
-# f.close()
+f.close()
+f = open("demo.txt", "w")
+f.write("I am Hannan Mujahid")
+f.close()
