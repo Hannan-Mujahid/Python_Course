@@ -1,7 +1,9 @@
+"""
 f = open("demo.txt", "r")
 data = f.read()
 print(data)
-
+f.close()
+"""
 
 """
 again_write = input("Do you want to write again (y/n): ")
@@ -12,7 +14,13 @@ if again_write == 'y':
     f.write("\n")
 f.close()
 """
-f.close()
+"""
 f = open("demo.txt", "a")
 f.write("\nI'm learning Python and it's fun.")
 f.close()
+"""
+
+with open("demo_file.txt", "x") as f:
+          f.write("I am Hannan Mujahid")
+          f.close()
+          
