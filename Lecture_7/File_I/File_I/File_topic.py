@@ -26,8 +26,13 @@ f.close()
 #           print(f.readline())
 #           f.close()
 
+"""
 f = open("demo.txt", "w")
 f.write("Hello, I'm Hannan Mujahid.\nI am learning Python.")
 f = open("demo.txt", "r")
 print(f.read())
 f.close()
+"""
+
+
+
