@@ -20,9 +20,13 @@ f.write("\nI'm learning Python and it's fun.")
 f.close()
 """
 
-with open("demo1.txt", "x") as f:
-          f.write("I am Hannan Mujahid")
+# with open("demo1.txt", "x") as f:
+#           f.write("I am Hannan Mujahid")
 
-          print(f.readline())
-          f.close()
-          
+#           print(f.readline())
+#           f.close()
+
+f = open("demo.txt", "w")
+f.write("Hello, I'm Hannan Mujahid.\nI am learning Python.")
+
+f.close()

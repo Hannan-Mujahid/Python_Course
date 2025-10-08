@@ -1,3 +1,2 @@
-I am Hannan MujahidI'm learning Python and it's fun.
-I'm learning Python and it's fun.
-I'm learning Python and it's fun.
+Hello, I'm Hannan Mujahid.
+I am learning Python.
