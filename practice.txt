@@ -1,4 +1,4 @@
 Hi everyone 
 we are learning file I/O 
-using python 
-I like a programming language.
+using Python 
+I like a programming language Python.
