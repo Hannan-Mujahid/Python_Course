@@ -15,8 +15,9 @@ f = open("practice.txt", "r" )
 print(f.read())
 f.close()
 """
-
+import os
 with open("practice1.txt", "w") as f:
     f.write("Hi everyone \nwe are learning file I/O \nusing python \nI like a programming language.")
     with open("practice1.txt", "r") as f:
         print(f.read())
+os.remove("practice1.txt")
