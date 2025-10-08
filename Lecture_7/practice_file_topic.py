@@ -4,7 +4,7 @@
 Hi everyone 
 we are learning file I/O 
 using python 
-I like a programming language.
+I like a programming language Python.
 """
 # first Method
 """
@@ -26,8 +26,18 @@ os.remove("practice1.txt")
 """
 
 # WAP that replace occurrences of "Java" with "Python" in the file "practice.txt".
-
+# first Method
+"""
 f = open("practice.txt", "r")
 data = f.read()
 new_data = data.replace("Python","Java")
 print(new_data)
+"""
+# second Method
+"""
+with open("practice.txt", "r") as f:    
+    data = f.read()
+    new_data = data.replace("Python","Java")
+    print(new_data)
+"""
+
