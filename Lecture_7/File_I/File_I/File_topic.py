@@ -42,7 +42,8 @@ os.remove("demo1.txt")
 """
 
 f = open("practice.txt", "w")
-
+f.write("Hi everyone \nwe are learning file I/O \nusing python \nI like a programming language.")
+f.close()
 
 
 
