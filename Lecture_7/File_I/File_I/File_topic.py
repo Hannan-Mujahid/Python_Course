@@ -37,5 +37,6 @@ f.close()
 with open("demo_file.txt", "w") as f:
     f.write("this is a updated file.\n by Hannan mujahid")
     
-
+import os 
+os.remove("demo1.txt")
 
