@@ -66,18 +66,22 @@ check_word_in_file()
 """
 
 # WAP to find the line number of the line containing the word "learning" in the file "practice.txt".
-
+"""
 def check_for_line_in_file():
     word = "learning"
     data = True
     line_no = 1
     with open("practice.txt", "r") as f:
        while data:
-              data = f.readline()
-              if (data.find(word) != -1):
+            data = f.readline()
+            if (word in data):
                    print("line no")
                    return
-              line_no +=1
+            line_no += 1
     return -1        
   
-print(check_for_line_in_file())                   
+print(check_for_line_in_file())      
+"""
+
+
+
