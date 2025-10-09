@@ -47,3 +47,10 @@ def find_biggest_num():
 find_biggest_num()
 """
 # 06
+"""
+enter_user = int(input("Enter a number: "))
+if enter_user %2 ==0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+"""
