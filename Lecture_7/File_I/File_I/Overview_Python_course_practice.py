@@ -54,3 +54,5 @@ if enter_user %2 ==0:
 else:
     print("The number is odd.")
 """
+numbe
+ = int(input("Enter number of students: "))

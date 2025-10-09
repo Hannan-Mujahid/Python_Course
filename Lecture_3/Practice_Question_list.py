@@ -103,8 +103,8 @@ print(merge_list)
 
 #            list ko print karo for loop k sat
 
-
+"""
 fruit = ["APPLE","MANGO","ORANGE","GRAPES","PINEAPPLE"]
 for fruit in fruit:
     print(fruit)
-
+"""
