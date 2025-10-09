@@ -54,5 +54,14 @@ if enter_user %2 ==0:
 else:
     print("The number is odd.")
 """
-numbe
- = int(input("Enter number of students: "))
+subjects_marks = []
+marks_1 = int(input("Enter number of subject english: "))
+marks_2 = int(input("Enter number of subject math: "))
+marks_3 = int(input("Enter number of subject computer: "))
+for marks in subjects_marks:
+    if (marks_1 and marks_2 and marks_3) >= 33:
+        print("You are pass.")
+    else:
+        print("You are fail.")
+        
+
