@@ -100,11 +100,11 @@ with open("practice_2.txt", "r") as f:
     nums = data.split(",")
     print(nums)
     for val in nums:
-        if (int(val) %2 == 0):
+        if (int(val) %2 != 0):
             print(int(val))
             count += 1
-print("Total count of even number", count)
-"""    
+print("Total count of odd number", count)
+  """  
 
     
 
