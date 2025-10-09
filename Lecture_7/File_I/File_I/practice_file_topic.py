@@ -43,5 +43,12 @@ with open("practice.txt", "r") as f:
     with open("practice.txt", "w") as f:
         f.write(new_data)
 """
-
-
+# word = "learning"
+"""
+with open("practice.txt", "r") as f:
+    data = f.read()
+    if (data.find("learning" ) != -1):
+        print("found") 
+    else:
+        print("not found") 
+"""
