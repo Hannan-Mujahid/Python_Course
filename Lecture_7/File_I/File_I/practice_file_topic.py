@@ -65,6 +65,8 @@ def check_word_in_file():
 check_word_in_file()
 """
 
+# WAP to find the line number of the line containing the word "learning" in the file "practice.txt".
+
 def check_for_line_in_file():
     word = "learning"
     data = True
