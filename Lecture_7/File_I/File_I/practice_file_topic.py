@@ -65,4 +65,17 @@ def check_word_in_file():
 check_word_in_file()
 """
 
-
+def check_for_line_in_file():
+    word = "learning"
+    data = True
+    line_no = 1
+    with open("practice.txt", "r") as f:
+       while data:
+              data = f.readline()
+              if (data.find(word) != -1):
+                   print("line no")
+                   return
+              line_no +=1
+    return -1        
+  
+print(check_for_line_in_file())                   
