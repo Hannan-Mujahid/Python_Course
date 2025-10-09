@@ -44,6 +44,7 @@ with open("practice.txt", "r") as f:
         f.write(new_data)
 """
 # word = "learning"
+# without function
 """
 with open("practice.txt", "r") as f:
     data = f.read()
@@ -52,3 +53,16 @@ with open("practice.txt", "r") as f:
     else:
         print("not found") 
 """
+# Code write with function
+"""
+def check_word_in_file():
+    with open("practice.txt", "r") as f:
+        data = f.read()
+    if (data.find("learning" ) != -1):
+        print("found") 
+    else:
+        print("not found")
+check_word_in_file()
+"""
+
+
