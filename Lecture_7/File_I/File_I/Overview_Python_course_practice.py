@@ -29,6 +29,7 @@ else:
 """
 # 05
 
+"""
 with open("Test_Python.txt","w") as f:
     f.write("23,45,67")
 
@@ -44,3 +45,5 @@ def find_biggest_num():
             print("The biggest number is: ", number)
 
 find_biggest_num()
+"""
+# 06
