@@ -13,6 +13,6 @@ print("Hello! ", name ,"you are  ", age," years old.")
 """
 # 03
 
-celsius = float(input("Enter tempurature in celsius: "))
+celsius = float(input("Enter temperature in celsius: "))
 fahrenheit = (celsius * 9/5) + 32
-print("Tempurature in fahrenheit is: ", fahrenheit)
+print("Temperature in fahrenheit is: ", fahrenheit)
