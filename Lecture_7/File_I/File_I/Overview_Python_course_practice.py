@@ -28,8 +28,17 @@ else:
     print("The number is zero.", num)
 """
 # 05
+
 with open("Test_Python.txt","w") as f:
     f.write("23,45,67")
+number = 0
+def find_biggest_num():
     with open("Test_Python.txt","r") as f:
-        data = f.read()
-        print(data)
+            data = f.read()
+            print(data)
+            
+            for number in range(len(data.split(",")) ):
+                number = max(data)
+            print("The biggest number is: ", number)
+
+find_biggest_num()
