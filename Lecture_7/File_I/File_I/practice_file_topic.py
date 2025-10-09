@@ -106,6 +106,7 @@ with open("practice_2.txt", "r") as f:
 print("Total count of odd number", count)
   """  
 
+
     
 
     
