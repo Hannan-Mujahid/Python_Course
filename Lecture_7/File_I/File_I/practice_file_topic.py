@@ -83,5 +83,10 @@ def check_for_line_in_file():
 print(check_for_line_in_file())      
 """
 
+with open("practice_2.txt", "w") as f:
+    f.write("1,2,33,56,78,90,20,100,103,200")
+    with open("practice_2.txt", "r") as f:
+        print(f.read())
+    
 
-
+    
