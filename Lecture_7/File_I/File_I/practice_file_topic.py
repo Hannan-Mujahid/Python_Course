@@ -83,10 +83,29 @@ def check_for_line_in_file():
 print(check_for_line_in_file())      
 """
 
-with open("practice_2.txt", "w") as f:
-    f.write("1,2,33,56,78,90,20,100,103,200")
-    with open("practice_2.txt", "r") as f:
-        print(f.read())
+# WAP to count the number of even numbers from a list of numbers stored in a file "practice_2.txt" (numbers are separated by comma)
+"""
+count = 0
+with open("practice_2.txt", "r") as f:
+    data = f.read()
+    # print(data)
+
+    # num = ""
+    # for i in range(len(data)):
+    #     if (data[i] == ","):
+    #         print(int(num))
+    #         num = ""
+    #     else:
+    #         num += data[i]
+    nums = data.split(",")
+    print(nums)
+    for val in nums:
+        if (int(val) %2 == 0):
+            print(int(val))
+            count += 1
+print("Total count of even number", count)
+"""    
+
     
 
     
