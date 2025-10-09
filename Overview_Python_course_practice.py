@@ -11,3 +11,8 @@ name = input("Enter your name: ")
 age = int(input("Enter your age:"))
 print("Hello! ", name ,"you are  ", age," years old.")
 """
+# 03
+
+celsius = float(input("Enter tempurature in celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Tempurature in fahrenheit is: ", fahrenheit)
