@@ -104,7 +104,10 @@ for i in range(1,n+1):
     if i%2 != 0:
         print("Odd number:",i)
 """
-n = 5
-x = 1
-for i in range(1,n+1,10):
-    
+# 11
+# 5 ka table print karo using for loop.
+
+num = int(input("Enter a number to print its table: "))
+for i in range(1,11):
+    print(num,"x", i ,"= ",num*i)
+
