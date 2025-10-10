@@ -86,8 +86,7 @@ for i in numbers:
     print(num,"x",i,"=",num*i)
 """
 
-# Ek list [1, 2, 3, 4, 5] banao aur har element ka square print karo.
-
+# Ek list [1, 2, 3, 4, 5] banao aur har element ka square print karo
 """
 list = [1,2,3,4,5]
 idx = 0
