@@ -112,12 +112,14 @@ for i in range(1,11):
     print(num,"x", i ,"= ",num*i)
 """
 # 12
-
+# Numbers = [10, 20, 30, 40, 50] — in sab ka sum find karo using loop.
+"""
 numbers = [10, 20, 30, 40, 50]
 idx = 0
 for i in numbers:
     idx += i
     print(idx)
+"""
 
 
 
