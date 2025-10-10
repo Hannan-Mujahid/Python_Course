@@ -113,11 +113,12 @@ for i in range(1,11):
 """
 # 12
 
-# numbers = [10,20,30,40,50]
-# x = 20
-# idx = 0
-# def find_num():
-#     for i in len(numbers):
-#         finds = 
+numbers = [10, 20, 30, 40, 50]
+idx = 0
+for i in numbers:
+    idx += i
+    print(idx)
+
+
 
     
