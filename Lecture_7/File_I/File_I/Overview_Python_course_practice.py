@@ -56,7 +56,7 @@ else:
 """
 # 07
 # Ek student ke marks input lo aur uske hisaab se grade print karo (A, B, C, D, F).
-
+"""
 # Input from user
 obtained = float(input("Enter obtained marks: "))
 total = float(input("Enter total marks: "))
@@ -80,7 +80,7 @@ else:
     grade = "F"
 
 print("Grade:", grade)
-
+"""
 
 
 
