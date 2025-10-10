@@ -54,16 +54,18 @@ if enter_user %2 ==0:
 else:
     print("The number is odd.")
 """
-subjects_marks = []
+
 marks_1 = int(input("Enter number of subject english: "))
 marks_2 = int(input("Enter number of subject math: "))
 marks_3 = int(input("Enter number of subject computer: "))
-for marks in subjects_marks:
-    if marks_1 >= 80:
-        print("Grade A")
-    elif marks_2 >= 70:
-        print("Grade B")
-    elif marks_3 >= 60:
-        print("Grade C")
-    else:
-        print("Grade D is fail")
+marks_4 = int(input("Enter number of subject science: "))
+if marks_1 and marks_2 and marks_3 and marks_4 >= 80:
+    print(marks_1,"Grade A")
+elif marks_1 and marks_2 and marks_3 and marks_4 >= 70:
+    print(marks_2,"Grade B")
+elif marks_1 and marks_2 and marks_3 and marks_4 >= 60:
+    print(marks_3,"Grade C")
+elif marks_1 and marks_2 and marks_3 and marks_4 >= 50:
+        print(marks_4,"Grade D")
+else:
+    print("Grade D is fail")
