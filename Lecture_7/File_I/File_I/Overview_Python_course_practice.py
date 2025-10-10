@@ -89,5 +89,11 @@ for i in range(1, n+1):
     print(i)
 """
 # 09
-
-
+# 1 se 20 tak ke even numbers print karo.
+"""
+n = 20
+for i in range(1,n+1):
+    if i%2 == 0:
+        print("Even number:", i)
+"""    
+        
