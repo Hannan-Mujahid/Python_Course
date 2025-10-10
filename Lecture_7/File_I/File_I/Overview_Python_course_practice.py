@@ -104,3 +104,7 @@ for i in range(1,n+1):
     if i%2 != 0:
         print("Odd number:",i)
 """
+n = 5
+x = 1
+for i in range(1,n+1,10):
+    print("5 x",x = i)
