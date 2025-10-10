@@ -107,4 +107,4 @@ for i in range(1,n+1):
 n = 5
 x = 1
 for i in range(1,n+1,10):
-    print("5 x",x = i)
+    
