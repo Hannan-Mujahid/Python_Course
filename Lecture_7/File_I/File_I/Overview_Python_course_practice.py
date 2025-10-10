@@ -81,8 +81,13 @@ else:
 
 print("Grade:", grade)
 """
+# 08
+# 1 se 5 tak numbers print karo using for loop.
+"""
 n = 5
 for i in range(1, n+1):
     print(i)
+"""
+# 09
 
 
