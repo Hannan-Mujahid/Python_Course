@@ -57,36 +57,31 @@ else:
 # 07
 # Ek student ke marks input lo aur uske hisaab se grade print karo (A, B, C, D, F).
 
-marks_1 = int(input("Enter number of subject english: "))
-marks_2 = int(input("Enter number of subject math: "))
-marks_3 = int(input("Enter number of subject computer: "))
-marks_4 = int(input("Enter number of subject science: "))
-obtained_marks = marks_1 + marks_2 + marks_3 + marks_4
-percentage = (obtained_marks/400)*100
-if percentage >= 80:
-    Grade = "A"
+# Input from user
+obtained = float(input("Enter obtained marks: "))
+total = float(input("Enter total marks: "))
+
+# Calculate percentage
+percentage = (obtained / total) * 100
+print("Percentage:", percentage)
+
+# Determine grade
+if percentage >= 90:
+    grade = "A+"
+elif percentage >= 80:
+    grade = "A"
 elif percentage >= 70:
-    Grade = "B"
+    grade = "B"
 elif percentage >= 60:
-    Grade = "C"
+    grade = "C"
 elif percentage >= 50:
-    Grade = "D"
+    grade = "D"
 else:
-    Grade = "F"
+    grade = "F"
 
-print("Your Grade is: ", Grade)
-
-
+print("Grade:", grade)
 
 
 
-# if marks_1 and marks_2 and marks_3 and marks_4 >= 80:
-#     print(marks_1,"Grade A")
-# elif marks_1 and marks_2 and marks_3 and marks_4 >= 70:
-#     print(marks_2,"Grade B")
-# elif marks_1 and marks_2 and marks_3 and marks_4 >= 60:
-#     print(marks_3,"Grade C")
-# elif marks_1 and marks_2 and marks_3 and marks_4 >= 50:
-#         print(marks_4,"Grade D")
-# else:
-#     print("Grade D is fail")
+
+
