@@ -106,8 +106,8 @@ for i in range(1,n+1):
 """
 # 11
 # 5 ka table print karo using for loop.
-
+"""
 num = int(input("Enter a number to print its table: "))
 for i in range(1,11):
     print(num,"x", i ,"= ",num*i)
-
+"""
