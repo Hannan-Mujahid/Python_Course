@@ -54,12 +54,27 @@ if enter_user %2 ==0:
 else:
     print("The number is odd.")
 """
+# 07
+# Ek student ke marks input lo aur uske hisaab se grade print karo (A, B, C, D, F).
 
 marks_1 = int(input("Enter number of subject english: "))
 marks_2 = int(input("Enter number of subject math: "))
 marks_3 = int(input("Enter number of subject computer: "))
 marks_4 = int(input("Enter number of subject science: "))
+obtained_marks = marks_1 + marks_2 + marks_3 + marks_4
+percentage = (obtained_marks/400)*100
+if percentage >= 80:
+    Grade = "A"
+elif percentage >= 70:
+    Grade = "B"
+elif percentage >= 60:
+    Grade = "C"
+elif percentage >= 50:
+    Grade = "D"
+else:
+    Grade = "F"
 
+print("Your Grade is: ", Grade)
 
 
 
