@@ -120,12 +120,14 @@ for i in numbers:
     idx += i
     print(idx)
 """
+# copy code
+"""
 numbers = [10,20,30,40,50]
 idx = 0
 for i in numbers:
     idx += i
     print(idx)
- 
+""" 
 
 
 
